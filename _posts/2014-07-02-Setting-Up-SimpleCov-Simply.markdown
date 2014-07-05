@@ -28,7 +28,7 @@ SimpleCov.start 'rails'
 
 SimpleCov automatically creates a coverage file in your root directory, so add this to your .gitignore for good measure.
 
-Don't forget to {% highlight ruby %} bundle {% endhighlight %}!
+Don't forget to bundle!
 
 Using SimpleCov
 
