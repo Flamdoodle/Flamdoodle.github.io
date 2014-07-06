@@ -6,8 +6,7 @@ categories: jekyll update
 ---
 
 I was recently told about the test coverage gem [SimpleCov][simplecov].  I immediately fell in love (though maybe it's because it told me I had nearly 100% coverage).  Here, I'll detail the very...simple...setup of SimpleCov in your project and talk quickly about how to use it.
-
-The Setup
+<h3>The Setup</h3>
 
 Adding SimpleCov to your project, as the name suggests, is simple. All that you need to get it up and running is three lines of code.
 
@@ -29,13 +28,14 @@ SimpleCov.start 'rails'
 SimpleCov automatically creates a coverage file in your root directory, so add this to your .gitignore for good measure.
 
 Don't forget to bundle!
-
-Using SimpleCov
+<h3>Using SimpleCov</h3>
 
 Using SimpleCov is as easy to use in your project as it was to install.  The setup we just did makes it so that running your tests also runs SimpleCov.
 
 When you run your tests, SimpleCov should print out a percentage of your test coverage and a file path to the location that the coverage report was saved to.  Copy and paste that location into your browser to get more specific details on your coverage.  If you click on index.html on the page that pops up, you will be directed to a page that looks like the root directory of your project.  Search around!  This is where I decided I loved SimpleCov, since I could see the specific test coverage of each line of my program.
 
 Now go have fun with this tool, and see if you can reach that 100% that we aspire to.
+
+To see more in-depth documentation, see [SimpleCov][simplecov] on GitHub.
 
 [simplecov]: https://github.com/colszowka/simplecov
