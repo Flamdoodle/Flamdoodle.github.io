@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Initial Commit"
-date:   2014-06-29 12:13:25
 ---
 
 First post, time to start with a clean slate.  This is where I start a new project with a world of possibilities ahead of me.  It's my initial commmit.
