@@ -2,7 +2,6 @@
 layout: post
 title:  "Setting Up SimpleCov, Simply"
 date:   2014-07-02 5:00:13
-categories: jekyll update
 ---
 
 I was recently told about the test coverage gem [SimpleCov][simplecov].  I immediately fell in love (though maybe it's because it told me I had nearly 100% coverage).  Here, I'll detail the very...simple...setup of SimpleCov in your project and talk quickly about how to use it.
