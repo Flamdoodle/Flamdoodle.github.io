@@ -32,7 +32,7 @@ Using SimpleCov is as easy to use in your project as it was to install.  The set
 
 When you run your tests, SimpleCov should print out a percentage of your test coverage and a file path to the location that the coverage report was saved to.  Copy and paste that location into your browser to get more specific details on your coverage.  If you click on index.html on the page that pops up, you will be directed to a page that looks like the root directory of your project.  Search around!  This is where I decided I loved SimpleCov, since I could see the specific test coverage of each line of my program.
 
-Now go have fun with this tool, and see if you can reach that 100% that we aspire to.
+Now go have fun with this tool, and see if you can reach that 100% that we all aspire to.
 
 To see more in-depth documentation, see [SimpleCov][simplecov] on GitHub.
 
