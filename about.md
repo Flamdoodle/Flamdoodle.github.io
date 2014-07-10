@@ -11,7 +11,7 @@ nonsense; especially: pretentious nonsense
 
 That's me!  I'm Stephen Roth, a developer in the greater NYC area.  I love to learn, and it's this that led me to the wonderful word of programming.  There is always something new to explore, a better way of solving a problem, or a way to make others' lives easier, and I constantly aim to learn these and implement them in my code.  Whether it's on projects with friends or a team of professionals, I look forward to applying my talents and being proud of a product that I've helped build.
 
-Speaking of, have you heard about [Smartipants][smartipants]?  It's a totally awesome memory game that makes you smarter.  This is backed by **science** (which you can read more about on the site).  I built it with some friends.  Check it out.
+Speaking of, have you heard about [SmartiPants][smartipants]?  It's a totally awesome memory game that makes you smarter.  This is backed by **science** (which you can read more about on the site).  I built it with some friends.  Check it out.
 
 You've heard of that one?  Well then how about "[What's This?][whatsthis]"?  It's an equally awesome - though far more hilarious - game that is based on the popular party game usually called Pictionary Telephone.  This one doesn't make you smarter, but looking at the finished games is hilarious.  It's currently being rewritten from the ground up, so be on the lookout for a cleaner, faster, and more friendly version soon!
 
