@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /Stephen Roth/
+title: Stephen Roth
+permalink: /StephenRoth/
 ---
 flam·doo·dle *noun* \¦flam¦düdəl\:
 nonsense; especially: pretentious nonsense
