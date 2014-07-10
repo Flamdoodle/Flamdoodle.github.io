@@ -3,7 +3,7 @@ layout: page
 title: Stephen Roth
 permalink: /StephenRoth/
 ---
-flam·doo·dle *noun* \¦flam¦düdəl\:
+**flam·doo·dle** *noun* \¦flam¦düdəl\:
 nonsense; especially: pretentious nonsense
 
 <h3>Who is Flamdoodle?</h3>
