@@ -33,7 +33,7 @@ Besides that, you can change the CSS in the `css` folder, change the layouts in 
 
 You can see your blog on your localhost, but how do you get others to see your beautiful words?  Since you're looking at this and trying to use Jekyll, you probably also have a GitHub account.  What you may not know is that having that account also gives you your own website of sorts.  The url of this site is `username.github.io`.  Create a repo with the name `username.github.io`, `git init` your Jekyll folder, `git add remote` to that repo, and push to master.  If you wait a few minutes...boom!  You have a blog on your own site!  It's that easy.
 
-If you want to learn more about Jekyll, head over to the [main site][jekyll].  You can also checkout out more information about [GitHub Pages][github-pages].  If you want comments at the bottom of the page like I do, you can use [Disqus][disqus].  You can just copy and paste the code they give you into your layout.
+If you want to learn more about Jekyll, head over to the [main site][jekyll].  You can also checkout out more information about [GitHub Pages][github-pages].  If you want comments at the bottom of the page like I have, checkout [Disqus][disqus].  You can just copy and paste the code they give you into your layout.
 
 [jekyll-repo]: https://github.com/Flamdoodle/Flamdoodle.github.io
 [jekyll]: http://jekyllrb.com/
