@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "JavaScript and Turbolinks Are Not BFFs, But You Can Change That"
+title:  "JavaScript and Turbolinks Are Not BFFs"
 ---
+
+**But you can change that**
 
 <h3>The Problem</h3>
 
