@@ -24,7 +24,7 @@ Find the `ANAME` records.  These should have something that looks like `@(none)`
 
 Finally, go find `CNAME` records.  Find the section that says `ALIAS` and write `your-domain-name.com`.  In the same record, select "Other Host" (or something like that, don't use "www" or other given options) and type in `username.github.io`. *Note*: This step may not be necessary, I did it and am afraid to change it since I have it working now.
 
-And that's it.  Wait a few hours for the internet to learn about the changes you made, and you should have a fancy, schmancy blog with your own URL.
+And that's it.  Wait a few hours for the internet to learn about the changes you made, and you should have a fancy schmancy blog with your own URL.
 
 If you want to read more about how to set up a custon domain with GitHub Pages, see [this page][pages].
 
