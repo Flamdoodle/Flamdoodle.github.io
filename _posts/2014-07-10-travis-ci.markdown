@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Build Smart With Travis CI"
+---
+
+<h3>What is Travis CI?</h3>
+
+Travis CI is a [continuous integration][ci] service for projects hosted on GitHub.  You can read all about it by clicking that Wikipedia link.  **tl;dr**: Travis CI will automatically build and test your project.
+
+This may not sound super fancy, since right now all that means to you is you don't have to type in `rspec` (or your choice of testing framework) every once in a while.  But what if I told you it did this every time you pushed code to GitHub?  What if it did this every time a pull request is created, and warned you when the build or tests failed?  This would ensure you always commit working code, and would warn you when something breaks.  Clearly I didn't just pose those hypotheticals for no reason, and as you can guess, Travis CI does those things, ensuring the stability of your project.
+
+<h3>Teach Me How To Travis</h3>
+
+After signing up for [Travis CI][travis] and giving it access to your GitHub, there are two things you need to do to add it to your project:<br>
+1) Go to the settings in your repo, click on **Webhooks & Services**, and use the **Services** drop down to select **Travis CI**<br>
+2) Add a `.travis.yml` file to the root of your project
+
+Tada! Seems easy enough, right?  Well, not exactly.  This is the part where I got caught for a bit (read: one week).  That file you added to your project needs to be set up a certain way and have specific information in it.  For example, in [SmartiPants][smartipants], the `.travis.yml` file looks like:
+
+{% highlight yaml %}
+language: ruby
+script:
+  - RAILS_ENV=test bundle exec rake db:migrate --trace
+  - bundle exec rake db:seed
+  - bundle exec rspec spec/
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+  - cp config/database.yml.travis config/database.yml
+rvm:
+  - "2.0.0"
+{% endhighlight %}
+
+What's going on in here?  I'll break it down as much as I can, but you should notice that it has the same format as other YAML files you're used to.
+
+Going from top to bottom, we start with `language: ruby`.  As you can probably guess, this is where you tell Travis what language you're project is in.  You can use many languages with Travis, but if you don't specify any, it supposedly defaults to Ruby.
+
+Next up we have this `script` thing.  This is followed by a few lines that you might recognize as console commands.  When I was writing up this file at first, I didn't unclude this part and got many errors.  When I looked at why the build failed, I noticed these errors looked familiar.  They looked almost as if I didn't have my test database set up.  By telling Travis to run this `script` whenever it makes a build, I ensured that my test environment was set up correctly.
+
+`before_script` probably makes a lot more sense now.  This tells Travis to run the commands *before* the other script commands.  Specifically, I told it to create the test database in postgresql and to use the same settings in my database.yml file.
+
+The last part of our example is `rvm`.  This tells Travis what version(s) of Ruby to use.  This is very important, and you shouldn't just copy and paste (as I did) from Travis's [Getting Started][travis-help] page.  Make sure you tell it what version(s) you are using and nothing more.  Otherwise, you might run into build failures because some gems won't load and you'll think you're going crazy (clearly I say this from experience).
+
+There is more you can do to set up your `.travis.yml` file than what I've covered here, but it should serve as a good start.  Hopefully, you won't run into the same issues that I did and can get Travis CI up and running on your future projects with little hassle.
+
+[I feel confident in this post being readible, because I `T`ried `r`eading `a`gain `v`ery `i`nterested `s`lowly, `C`learly `I`ntelligent.]:blank
+[ci]:http://en.wikipedia.org/wiki/Continuous_integration
+[travis]:https://travis-ci.org/
+[smartipants]:smartipantsgame.com
+[travis-help]:http://docs.travis-ci.com/user/getting-started/
