@@ -33,11 +33,11 @@ There are other, more complex functions that you can create, like the one that o
 
 There are many, many, MANY more customizations you can make, and some awesome sites that help you understand what's going on.  A quick internet search will also give you many other blog posts like this one.
 
-And you've reached the end (of draft #1).  I hope this helps some people come out of there `shell`s and make their lives easier.  Even more than that, however, I would like people to share their interesting functions or entire profiles (which will lead to a possible project in the future). :D
+And you've reached the end (of draft #1).  I hope this helps some people come out of there `shell`s and make their lives easier.  Even more than that, however, I would like people to talk about what they'd like to have and to share their interesting functions or entire profiles (which will lead to a possible project in the future). :D
 
 
 
 
-[NOTES: I want people to contribute to the conversation to talk about what they've done with their bash or what they would like to do.  Also .gitconfig file.  Other personalization?  More talk on functions, looks like JS?]:blank
+[NOTES: Also .gitconfig file.  Other personalization?  More talk on functions, looks like JS?]:blank
 [alias]:http://alias.sh/
 [profile]:https://github.com/Flamdoodle/bash-profile
