@@ -25,7 +25,7 @@ SimpleCov.start 'rails'
 
 SimpleCov automatically creates a coverage file in your root directory, so add this to your .gitignore for good measure.
 
-Don't forget to bundle!
+Don't forget to `bundle`!
 <h3>Using SimpleCov</h3>
 
 Using SimpleCov is as easy to use in your project as it was to install.  The setup we just did makes it so that running your tests also runs SimpleCov.
