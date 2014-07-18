@@ -34,7 +34,7 @@ What's going on in here?  I'll break it down as much as I can, but you should no
 
 Going from top to bottom, we start with `language: ruby`.  As you can probably guess, this is where you tell Travis what language you're project is in.  You can use many languages with Travis, but if you don't specify any, it supposedly defaults to Ruby.
 
-Next up we have this `script` thing.  This is followed by a few lines that you might recognize as console commands.  When I was writing up this file at first, I didn't unclude this part and got many errors.  When I looked at why the build failed, I noticed these errors looked familiar.  They looked almost as if I didn't have my test database set up.  By telling Travis to run this `script` whenever it makes a build, I ensured that my test environment was set up correctly.
+Next up we have this `script` thing.  This is followed by a few lines that you might recognize as console commands.  When I was writing up this file at first, I didn't include this part and got many errors.  When I looked at why the build failed, I noticed these errors looked familiar.  They looked almost as if I didn't have my test database set up.  By telling Travis to run this `script` whenever it makes a build, I ensured that my test environment was set up correctly.
 
 `before_script` probably makes a lot more sense now.  This tells Travis to run the commands *before* the other script commands.  Specifically, I told it to create the test database in postgresql and to use the same settings in my database.yml file.
 

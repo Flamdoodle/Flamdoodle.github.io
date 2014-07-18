@@ -9,7 +9,7 @@ I'm popular!  Someone looking at my blog was surprised to find that I used [GitH
 
 <h3>It's Easy, I Swear</h3>
 
-For this post, I'm going to assume that you already have a domain name and you just don't know how to set it up.  I also assume that you are using a blog built with Jeckyll.
+For this post, I'm going to assume that you already have a domain name and you just don't know how to set it up.  I also assume that you are using a blog built with Jekyll.
 
 The first step is to add a `CNAME` file to your root directory.  Put your domain name in this file, and nothing else, so it just looks like `your-domain-name.com`.
 
@@ -26,7 +26,7 @@ Finally, go find `CNAME` records.  Find the section that says `ALIAS` and write 
 
 And that's it.  Wait a few hours for the internet to learn about the changes you made, and you should have a fancy schmancy blog with your own URL.
 
-If you want to read more about how to set up a custon domain with GitHub Pages, see [this page][pages].
+If you want to read more about how to set up a custom domain with GitHub Pages, see [this page][pages].
 
 [github-pages]:https://pages.github.com/
 [pages]:https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages

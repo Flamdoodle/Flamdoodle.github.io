@@ -15,7 +15,7 @@ Speaking of, have you heard about [SmartiPants][smartipants]?  It's a totally aw
 
 You've heard of that one?  Well then how about "[What's This?][whatsthis]"?  It's an equally awesome - though far more hilarious - game that is based on the popular party game usually called Pictionary Telephone.  This one doesn't make you smarter, but looking at the finished games is hilarious.  It's currently being rewritten from the ground up, so be on the lookout for a cleaner, faster, prettier, and more user friendly version soon!
 
-Now that we're past the shameless plugs, I want to say that not only do I love to learn, but I love to help others learn as well.  Helping others where I have struggled is a wonderful feeling, and it is for this reason I have begun this chronical of my coding experience.  If there is some cool new tool that I've found, you can bet I'll help you initially set it up here.  Did I make a huge mistake that other programmers could as well, or get stuck on something that wasn't obvious for hours?  Yep, those'll be here too.
+Now that we're past the shameless plugs, I want to say that not only do I love to learn, but I love to help others learn as well.  Helping others where I have struggled is a wonderful feeling, and it is for this reason I have begun this chronicle of my coding experience.  If there is some cool new tool that I've found, you can bet I'll help you initially set it up here.  Did I make a huge mistake that other programmers could as well, or get stuck on something that wasn't obvious for hours?  Yep, those will be here too.
 
 I hope that you learn something by reading this, and have a good time too.  Be prepared for some laughs, code, facepalms, learning, and maybe just a little bit of flamdoodle.
 
