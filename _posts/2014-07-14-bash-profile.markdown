@@ -35,7 +35,7 @@ There are many, many, MANY more customizations you can make, and some awesome si
 
 And you've reached the end (except for some more of my favorite things below).  I hope this helps some people come out of there `shell`s and make their lives easier.  Even more than that, however, I would like people to talk about what they'd like to have and to share their interesting functions or entire profiles (which will lead to a possible project in the future). :D
 
-So, I've decided that my bash profile has gotten too confusing on GitHub and I want to show people some of my favorite parts of it on here.  So below, you'll see some parts of my profile that I have found to be super helpful or nice looking.  *Note: I'm not an expert at bash and some of what I'll put here works and I ahve no idea why.  Sometimes it works only sometimes.  Maybe you can come up with something better.**
+So, I've decided that my bash profile has gotten too confusing on GitHub and I want to show people some of my favorite parts of it on here.  So below, you'll see some parts of my profile that I have found to be super helpful or nice looking.  *Note: I'm not an expert at bash and some of what I'll put here works and I ahve no idea why.  Sometimes it works only sometimes.  Maybe you can come up with something better.*
 
 
 {% highlight bash %}
