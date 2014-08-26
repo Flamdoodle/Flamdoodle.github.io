@@ -115,7 +115,7 @@ alias doc='cd ~/Documents'
 alias reload='source ~/.bash_profile' # Reloads bash profile without closing Terminal
 alias f='open -a Finder ./'
 {% endhighlight %}
-These are my most frequented projects/most used commands, and these aliases make like so much easier.
+These are my most frequented projects/most used commands, and they're very convenient.
 
 [NOTES: Also .gitconfig file.  Other personalization?  More talk on functions, looks like JS?]:blank
 [alias]:http://alias.sh/
