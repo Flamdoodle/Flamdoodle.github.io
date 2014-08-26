@@ -63,7 +63,7 @@ function openchromehost() {
   sleep 3 && open -a "Google Chrome" "http://localhost:3000"
 }
 {% endhighlight %}
-Woah, what's going on up there?  I just added this the other day.  It starts up a rails server, opens a new Terminal tab to work in (because the first one is now running a server), and goes to localhost:3000 in Chrome.  Why didn't I just use the `sleep` function after calling `rails server`?  Well, because the server is running and while it's doing that, no other commands will run, so something clever needed to be done.  Can you figure out how I got it to work?  Look into `osascript`...
+Woah, what's going on up there?  I just added this the other day.  It starts up a rails server, opens a new Terminal tab to work in (because the first one is now running a server), and goes to localhost:3000 in Chrome.  Why didn't I just use the `sleep` function after calling `rails server`?  Well, because the server is running and while it's doing that, no other commands will execute, so something clever needed to be done.  Can you figure out how I got it to work?  Look into `osascript`...
 
 {% highlight bash %}
 # Clones a repo, CDs into it, opens it in Sublime, and runs bundle. From: https://github.com/stephenplusplus/dots/blob/master/.bash_profile
@@ -88,7 +88,7 @@ function clone {
   git clone $url $repo && cd $repo && subl . && bundle install;
 }
 {% endhighlight %}
-This one is one of my favorites.  See what it does in the commented out bit.  Once you use it, you'll never stop.
+This is one of my favorites.  See what it does in the commented out bit.  Once you use it, you'll never stop.
 
 {% highlight bash %}
 # Opens bash profile
@@ -100,7 +100,7 @@ Easy access!
 # Shows name (in cyan), current working directory (in green), current branch (in pink)
 PS1='\[\e[1;96m\]\u: \[\e[0;32m\]\W \[\033[00m\]$(git branch &>/dev/null; if [ $? -eq 0 ]; then echo "\[\e[0;35m\][$(git branch | grep ^*|sed s/\*\ //)] \[\033[00m\]"; fi)>> '
 {% endhighlight %}
-This the part of your Terminal before your cursor look like:<br>
+This is what the part of the Terminal before your cursor looks like:<br>
 <img src="/images/terminal-stuff.png"><br>
 Doesn't that look awesome?
 
