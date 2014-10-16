@@ -11,7 +11,7 @@ Adding SimpleCov to your project, as the name suggests, is simple. All that you 
 First, add it to your Gemfile in the test group:
 
 {% highlight ruby %}
-gem 'simplecov', :require => false, :group => test
+gem 'simplecov', :require => false, :group => :test
 {% endhighlight %}
 
 This ensures that it is used when you run your tests and that it's not required in the rest of your project, since it's mostly unnecessary.
