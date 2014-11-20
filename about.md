@@ -23,5 +23,5 @@ I hope that you learn something by reading this, and have a good time too.  Be p
 
 
 [smartipants]: http://www.smartipantsgame.com
-[whatsthis]: http://www.whats-this.herokuapp.com
+[whatsthis]: http://whats-this.herokuapp.com
 [startup_battlefield]: http://techcrunch.com/2014/09/10/and-the-winner-of-techcrunch-disrupt-sf-2014-is-alfred/
