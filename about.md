@@ -22,6 +22,6 @@ Now that we're past the shameless plugs, I want to say that not only do I love t
 I hope that you learn something by reading this, and have a good time too.  Be prepared for some laughs, code, facepalms, learning, and maybe just a little bit of flamdoodle.
 
 
-[smartipants]: https://www.smartipantsgame.com
-[whatsthis]: https://www.whats-this.herokuapp.com
+[smartipants]: http://www.smartipantsgame.com
+[whatsthis]: http://www.whats-this.herokuapp.com
 [startup_battlefield]: http://techcrunch.com/2014/09/10/and-the-winner-of-techcrunch-disrupt-sf-2014-is-alfred/
